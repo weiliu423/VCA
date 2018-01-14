@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item
+        android:id="@+id/homeNav"
+        android:icon="@drawable/home"
+        android:title="HOME" />
+    <group android:checkableBehavior="single">
+        <item android:title="Ultilities">
+            <menu>
+                <item
+                    android:id="@+id/weatherNav"
+                    android:icon="@drawable/weathericon"
+                    android:title="WEATHER" />
+                <item
+                    android:id="@+id/gameNav"
+                    android:icon="@drawable/game_icon"
+                    android:title="GAME" />
+                <item
+                    android:id="@+id/heatingNav"
+                    android:icon="@drawable/heatingicons"
+                    android:title="HEATING" />
+                <item
+                    android:id="@+id/ledNav"
+                    android:icon="@drawable/ledicon"
+                    android:title="LED" />
+                <item
+                    android:id="@+id/calendarNav"
+                    android:icon="@drawable/calendar"
+                    android:title="CALENDAR" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Services">
+        <menu>
+            <item
+                android:id="@+id/takeAwayNav"
+                android:icon="@drawable/foodicons"
+                android:title="TAKE AWAY" />
+            <item
+                android:id="@+id/taxiNav"
+                android:icon="@drawable/taxiicon"
+                android:title="TAXI" />
+            <item
+                android:id="@+id/shopNav"
+                android:icon="@drawable/shop"
+                android:title="SHOPPING" />
+        </menu>
+    </item>
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/signOutNav"
+                android:icon="@drawable/signouticon"
+                android:title="SIGN OUT" />
+        </menu>
+    </item>
+
+</menu>
